@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio profissional de Manoel Neto">
+  <title>Manoel Neto | Portfólio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/style.css">
+  <script src="JS/script.js" defer></script>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#inicio"><span class="brand-mark">&lt;/&gt;</span> Manoel Neto</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+        aria-controls="menu" aria-expanded="false" aria-label="Abrir menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item"><a class="nav-link active" href="#inicio">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre Mim</a></li>
+          <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+        </ul>
+        <a class="btn btn-nav" href="#contato">Entre em Contato</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- HERO -->
+    <header class="hero" id="inicio">
+      <div class="hero-orb orb-left"></div>
+      <div class="container hero-content">
+        <div class="row align-items-center g-5">
+          <div class="col-12 col-lg-6 hero-copy">
+            <p class="eyebrow">OLÁ, SEJA BEM-VINDO(A)!</p>
+            <h1 id="nomePerfil">Manoel <span>Neto</span></h1>
+            <h2><strong id="cargoPerfil">Desenvolvedor Front-End</strong> em formação</h2>
+            <p class="hero-description" id="resumoPerfil">
+              Sou estudante de programação, apaixonado por tecnologia e desenvolvimento web.
+              Busco criar páginas modernas, funcionais e responsivas.
+            </p>
+            <div class="hero-actions">
+              <a href="#projetos" class="btn btn-primary btn-lg"><span class="button-icon">↗</span> Ver meus projetos</a>
+              <a href="#contato" class="btn btn-outline-primary btn-lg"><span class="button-icon">✉</span> Entre em contato</a>
+            </div>
+            <div class="social-links" aria-label="Redes sociais">
+              <a href="#contato" aria-label="GitHub" title="GitHub">●</a>
+              <a href="#contato" aria-label="LinkedIn" title="LinkedIn">in</a>
+              <a href="#contato" aria-label="Instagram" title="Instagram">◎</a>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 hero-photo-column">
+            <div class="photo-decoration">
+              <div class="dot-pattern"></div>
+              <div class="photo-ring">
+                <img src="IMAG/minha-foto.jpeg" alt="Foto de Manoel Neto" class="foto-perfil">
+              </div>
+              <span class="blue-dot"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- SOBRE MIM -->
+    <section class="about-section" id="sobre">
+      <div class="container">
+        <div class="row align-items-center g-4">
+          <div class="col-12 col-lg-7">
+            <div class="section-heading">
+              <span class="section-icon" aria-hidden="true">♟</span>
+              <div><h2>Sobre Mim</h2><span class="heading-line"></span></div>
+            </div>
+            <p class="about-copy">
+              Sou estudante da área de tecnologia e estou desenvolvendo meus conhecimentos em programação.
+              Tenho interesse em tecnologia, criação de interfaces e soluções digitais.
+              Meu objetivo é conquistar experiência, trabalhar em projetos reais e continuar evoluindo na área.
+            </p>
+          </div>
+          <div class="col-12 col-lg-5">
+            <div class="info-list">
+              <div class="info-item"><span class="info-icon">🎓</span><div><h3>Formação</h3><p>Estudante de desenvolvimento web e tecnologia.</p></div></div>
+              <div class="info-item"><span class="info-icon">◎</span><div><h3>Interesse Profissional</h3><p>Desenvolvimento front-end, interfaces modernas e inovação.</p></div></div>
+              <div class="info-item"><span class="info-icon">▥</span><div><h3>Objetivos de Carreira</h3><p>Adquirir experiência, trabalhar em projetos reais e crescer na área de tecnologia.</p></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section class="skills-section" id="habilidades">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-icon" aria-hidden="true">⚙</span>
+          <div><h2>Habilidades Técnicas</h2><span class="heading-line"></span></div>
+        </div>
+        <div class="row g-3">
+          <div class="col-12 col-sm-6 col-xl-3"><article class="skill-card"><div class="tech-logo html-logo">5</div><div><h3>HTML5</h3><p>Estruturação de páginas web com semântica.</p></div></article></div>
+          <div class="col-12 col-sm-6 col-xl-3"><article class="skill-card"><div class="tech-logo css-logo">3</div><div><h3>CSS3</h3><p>Estilização, cores e layouts responsivos.</p></div></article></div>
+          <div class="col-12 col-sm-6 col-xl-3"><article class="skill-card"><div class="tech-logo js-logo">JS</div><div><h3>JavaScript</h3><p>Interatividade e lógica de programação.</p></div></article></div>
+          <div class="col-12 col-sm-6 col-xl-3"><article class="skill-card"><div class="tech-logo bs-logo">B</div><div><h3>Bootstrap 5</h3><p>Componentes e layouts modernos e responsivos.</p></div></article></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section class="projects-section" id="projetos">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-icon" aria-hidden="true">▰</span>
+          <div><h2>Meus Projetos</h2><span class="heading-line"></span></div>
+        </div>
+        <div class="row g-3">
+          <div class="col-12 col-md-6 col-xl-4">
+            <article class="project-card">
+              <div class="project-visual visual-one"><div class="mock-window"><span></span><span></span><span></span><div class="mock-content">Meu<br>Portfólio</div></div></div>
+              <div class="project-text"><h3>Portfólio Pessoal</h3><p>Página para apresentar meu perfil, habilidades e objetivos profissionais.</p><a href="#sobre" class="btn btn-sm btn-primary">Saiba Mais <span>→</span></a></div>
+            </article>
+          </div>
+          <div class="col-12 col-md-6 col-xl-4">
+            <article class="project-card">
+              <div class="project-visual visual-two"><div class="device device-laptop"><div class="device-screen">WEB<br><small>Design responsivo</small></div></div><div class="device device-phone"><div class="device-screen"></div></div></div>
+              <div class="project-text"><h3>Página Responsiva</h3><p>Site adaptável para celulares, tablets e computadores.</p><a href="#habilidades" class="btn btn-sm btn-primary">Saiba Mais <span>→</span></a></div>
+            </article>
+          </div>
+          <div class="col-12 col-md-6 col-xl-4">
+            <article class="project-card">
+              <div class="project-visual visual-three"><div class="form-mock"><div></div><div></div><div class="mock-button"></div></div></div>
+              <div class="project-text"><h3>Formulário Web</h3><p>Formulário para praticar campos, validação e interação com usuários.</p><a href="#contato" class="btn btn-sm btn-primary">Saiba Mais <span>→</span></a></div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="contact-section" id="contato">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-icon" aria-hidden="true">✉</span>
+          <div><h2>Entre em Contato</h2><span class="heading-line"></span></div>
+        </div>
+        <div class="row g-4">
+          <div class="col-12 col-lg-5">
+            <div class="contact-intro"><h3>Vamos conversar?</h3><p>Tem uma ideia ou oportunidade? Preencha o formulário e vamos conversar.</p><p class="contact-note">Este formulário é demonstrativo e não envia e-mails reais.</p></div>
+          </div>
+          <div class="col-12 col-lg-7">
+            <form id="formContato" class="contact-form">
+              <div class="row g-3">
+                <div class="col-12 col-md-6"><label for="nomeContato" class="form-label">Nome</label><input id="nomeContato" name="nome" class="form-control" type="text" placeholder="Seu nome" required></div>
+                <div class="col-12 col-md-6"><label for="emailContato" class="form-label">E-mail</label><input id="emailContato" name="email" class="form-control" type="email" placeholder="seu@email.com" required></div>
+                <div class="col-12"><label for="mensagemContato" class="form-label">Mensagem</label><textarea id="mensagemContato" name="mensagem" class="form-control" rows="4" placeholder="Como posso ajudar?" required></textarea></div>
+                <div class="col-12"><button type="submit" class="btn btn-primary">Enviar mensagem <span>→</span></button><p id="retornoContato" class="form-feedback mt-3 mb-0" aria-live="polite"></p></div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDITAR PERFIL / FUNCIONALIDADE DA ATIVIDADE -->
+    <section class="profile-editor-section" id="editarPerfil">
+      <div class="container">
+        <details class="profile-editor">
+          <summary>Personalizar meu perfil</summary>
+          <form id="formPerfil" class="mt-3">
+            <div class="row g-3">
+              <div class="col-12 col-md-4"><label for="campoNome" class="form-label">Nome profissional</label><input id="campoNome" class="form-control" required></div>
+              <div class="col-12 col-md-4"><label for="campoCargo" class="form-label">Cargo pretendido</label><input id="campoCargo" class="form-control" required></div>
+              <div class="col-12"><label for="campoResumo" class="form-label">Apresentação</label><textarea id="campoResumo" class="form-control" rows="3" required></textarea></div>
+              <div class="col-12"><button class="btn btn-primary" type="submit">Salvar perfil</button><p id="retornoPerfil" class="mt-2 mb-0" aria-live="polite"></p></div>
+            </div>
+          </form>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="mb-1">© <span id="ano"></span> Manoel Neto. Todos os direitos reservados.</p>
+      <p class="mb-0">Desenvolvido com HTML, CSS, JavaScript e Bootstrap 5.</p>
+      <p id="visita" class="visit-note mb-0"></p>
+    </div>
+  </footer>
+
+  <button id="tema" class="theme-toggle" type="button" aria-label="Alternar tema">☾</button>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

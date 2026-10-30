@@ -1,0 +1,16 @@
+PORTFÓLIO MODERNO — MANOEL NETO
+
+Estrutura:
+- index.html
+- CSS/style.css
+- JS/script.js
+- IMAG/minha-foto.jpeg
+
+Para usar:
+1. Coloque sua foto original dentro da pasta IMAG.
+2. Renomeie o arquivo exatamente para minha-foto.jpeg.
+3. Abra a pasta do projeto no VS Code.
+4. Abra index.html no navegador.
+5. Mantenha a internet ligada para carregar Bootstrap 5 e a fonte Google.
+
+O formulário é demonstrativo e não envia mensagens por e-mail sem integração com backend.
